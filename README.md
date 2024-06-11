@@ -1,5 +1,5 @@
 ===============================================================================
-# Deep-Learning-Project-Chest-X-ray-Classification
+# Deep-Learning-Project-Chest-X-ray-Classification-using-Streamlit
 ===============================================================================
 ## Tech stack:
         (1)Python
@@ -48,7 +48,7 @@ AWS_SECRET_ACCESS_KEY= ***
 AWS_REGION = us-east-1
 ```
 
-### (4) Run "train.py"
+### (4) Run following commands
 ```bash
 python train.py
 ```
