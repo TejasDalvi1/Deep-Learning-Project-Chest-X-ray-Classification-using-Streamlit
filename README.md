@@ -5,7 +5,7 @@
         (1)Python
         (2)Pytorch
         (3)AWS
-        (4)BentoML
+        (4)Streamlit
 -------------------------------------------------------------------------------
 ## Workflow (of updating files)
 
@@ -29,7 +29,7 @@ conda activate x_ray
 
 ### (2) Install "requirements.txt"
 ```bash
-pip install -r requirements_dev.txt
+pip install -r requirements.txt
 ```
 
 ### (3) setup AWS CLI
@@ -48,8 +48,11 @@ AWS_SECRET_ACCESS_KEY= ***
 AWS_REGION = us-east-1
 ```
 
-### (4) Run "main.py"
+### (4) Run "train.py"
 ```bash
-python main.py
+python train.py
+```
+```bash
+streamlit run app.py
 ```
 -------------------------------------------------------------------------------
